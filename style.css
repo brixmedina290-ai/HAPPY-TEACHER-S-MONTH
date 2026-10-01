@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #fffbf0;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(135deg, #FFFFE3, #6D8196);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    opacity: 0.95;
+}
+
+.date {
+    display: inline-block;
+    margin-top: 15px;
+    background: white;
+    color: #0b0a0a;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+.photo-section {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+.tribute-img {
+    max-width: 400px;
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+
+.audio-section {
+    text-align: center;
+    margin: 10px 20px 30px;
+}
+
+.audio-section audio {
+    border-radius: 30px;
+}
+
+.message {
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.message h2 {
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 280px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.quote {
+    text-align: center;
+    margin: 60px 20px;
+}
+
+.quote blockquote {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #555;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
